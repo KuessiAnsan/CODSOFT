@@ -5,7 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="074c7b71-2517-4041-b11a-4b72cde806d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ATM_INTERFACE/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATM_INTERFACE/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATM_INTERFACE/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATM_INTERFACE/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATM_INTERFACE/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATM_INTERFACE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATM_INTERFACE/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATM_INTERFACE/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURRENCY_CONVERTER/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURRENCY_CONVERTER/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURRENCY_CONVERTER/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURRENCY_CONVERTER/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURRENCY_CONVERTER/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURRENCY_CONVERTER/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURRENCY_CONVERTER/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CURRENCY_CONVERTER/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STUDENT_MANAGEMENT_SYSTEM/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STUDENT_MANAGEMENT_SYSTEM/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STUDENT_MANAGEMENT_SYSTEM/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STUDENT_MANAGEMENT_SYSTEM/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STUDENT_MANAGEMENT_SYSTEM/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STUDENT_MANAGEMENT_SYSTEM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STUDENT_MANAGEMENT_SYSTEM/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STUDENT_MANAGEMENT_SYSTEM/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDENT_GRADE_CALCULATOR/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/STUDENT_GRADE_CALCULATOR/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDENT_GRADE_CALCULATOR/src/main/java/org/example/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/STUDENT_GRADE_CALCULATOR/src/main/java/org/example/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDENT_GRADE_CALCULATOR/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/STUDENT_GRADE_CALCULATOR/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDENT_GRADE_CALCULATOR/target/classes/org/example/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/STUDENT_GRADE_CALCULATOR/target/classes/org/example/Subject.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +61,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,12 +88,20 @@
       <option name="project" value="LOCAL" />
       <updated>1703717098553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Student Grade Calculator First Push">
+      <created>1703718511100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703718511100</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Number Game First Push" />
     <MESSAGE value="Number Game Second Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Number Game Second Push" />
+    <MESSAGE value="Student Grade Calculator First Push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Student Grade Calculator First Push" />
   </component>
 </project>
