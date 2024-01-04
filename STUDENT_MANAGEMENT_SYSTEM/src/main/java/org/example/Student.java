@@ -1,47 +1,30 @@
 package org.example;
 
 public class Student {
-
-    private Long id;
-
-    private String firstName;
-
-    private String lastName;
+    private String name;
 
     private int rollNumber;
 
     private String grade;
 
-    public Student(Long id, String firstName, String lastName, int rollNumber, String grade) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Student(Long id, String name, String lastName, int rollNumber, String grade) {
+        this.name = name;
         this.rollNumber = rollNumber;
         this.grade = grade;
     }
 
-    public Long getId() {
-        return id;
+    public Student(String name, int rollNumber, String grade) {
+        this.name = name;
+        this.rollNumber = rollNumber;
+        this.grade = grade;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public String getName() {
+        return name;
     }
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getRollNumber() {
@@ -58,5 +41,23 @@ public class Student {
 
     public void setGrade(String grade) {
         this.grade = grade;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", rollNumber=" + rollNumber +
+                ", grade='" + grade + '\'' +
+                '}';
+    }
+
+    public String toFileString() {
+        return name + "," + rollNumber + "," + grade;
+    }
+
+    public static Student fromFileString(String fileString) {
+        String[] parts = fileString.split(",");
+        return new Student(parts[0], Integer.parseInt(parts[1]), parts[2]);
     }
 }
